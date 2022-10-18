@@ -1,10 +1,6 @@
 body{
     margin: 0;
-}
-
-@font-face {
-    font-family: Forte;
-    src: url(../font/FORTE.TTF);
+    font-family: sans-serif;
 }
 
 #content {
@@ -22,29 +18,21 @@ body{
 
 header {
   width: 40%;
-  height: 18vh;
+  height: min-content;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.main-title {
-    font-family: Forte;
-    font-size: 5rem;
-    color: #3E2424;
-    margin: 0px;
-    width: 60vh;
-    font-style: italic;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-}
 
 .nav-bar {
     width: 50vh;
     height: 7vh;
-    background-color:   #7ccf6f;
+    background-color: #7ccf6f;
     border-radius: 20px;
+    margin-top: 10px;
+
+    border: 5px solid #141413;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,13 +41,13 @@ header {
 .nav-button {
     width: 15vh;
     height: 4.5vh;
-    background-color: #3E2424;
+    background-color: rgb(245, 236, 108);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    color: white;
-    font-family: 'Forte';
-    font-style: italic;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 0.9rem;
     padding-top: 0px;
     display: flex;
     justify-content: center;
@@ -70,28 +58,31 @@ header {
 }
 
 button:hover{
-    background-color: #462c2c;
+    background-color: rgb(245, 235, 97);
 
 }
 
 
 main {
-    width: 75vh;
-    height: 70vh;
+    width: 50%;
+    height: 100%;
 }
 
 .main-content {
-    border: 10px solid #462c2c ;
+    border: 9px solid #141313 ;
     background-color: #7ccf6f;
     width: 100%;
-    height: 100%;
     border-radius: 40px;
+    min-height: 74vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
     width: 100%;
     height: 6vh;
-    background-color: #462c2c;
+    background-color: rgb(245, 236, 108);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +91,85 @@ footer {
 
 .footer-text {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(5, 5, 5);
     margin: 5px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+
+.generic-container{
+    display: flex;
+    position: relative;
+    height: 6vh;
+    width: 50vh;
+    background-color: rgb(245, 236, 108);
+    border: 5px solid rgb(241, 209, 28);
+    border-radius: 20px;
+    margin-top: 20px;
 
 }
+
+.leaf-icon {
+    width: 6vh;
+    height: 6vh;
+    position:absolute;
+    rotate: 30deg;
+    left: 48vh;
+    bottom: 4vh;
+}
+
+
+/* Home */
+
+h2 {
+    font-style: italic;
+    font-size: 4rem;
+    color: #141313;
+    margin-top: 55px;
+}
+
+.res-title {
+    font-family: "Courgette";
+}
+
+#home-title{
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lemon-icon {
+    width: 11vh;
+    height: 11vh;
+    position: absolute;
+    right: 440px;
+    bottom: 70px;
+}
+
+#desc-text {
+    font-family: "Open Sans";
+    position: relative;
+    height: 23vh;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.p-text {
+  word-spacing: 1px;
+  font-size: 1.1rem;
+  padding: 20px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+.p-phrase {
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 50px;
+    margin:0;
+}
+
 
