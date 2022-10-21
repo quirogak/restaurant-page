@@ -105,7 +105,7 @@ const genElements = (() => {
     document.querySelector(".main-content").appendChild(titleContainer)
     
     const leafIcon = document.createElement("img")
-    leafIcon.src ="../img/Leaf_icon_03.svg.png"
+    leafIcon.src ="../img/leaf-icon.png"
     leafIcon.setAttribute("class","leaf-icon")
     titleContainer.appendChild(leafIcon)
 
@@ -136,7 +136,53 @@ const genElements = (() => {
     lemonIcon.src ="../img/lemon-icon.png"
     lemonIcon.setAttribute("class","lemon-icon")
     descriptionContainer.appendChild(lemonIcon)
-  
+
+    //opening hours
+
+
+    const hoursContainer = document.createElement("div")
+    hoursContainer.setAttribute("class","generic-container")
+    hoursContainer.setAttribute("id","hours-text")
+    document.querySelector(".main-content").appendChild(hoursContainer)
+
+    const hoursTitle = document.createElement("h2")
+    hoursTitle.setAttribute("class","sub-title")
+    hoursContainer.appendChild(hoursTitle)
+    hoursTitle.textContent = "Hours"
+
+    const hoursText = document.createElement("p")
+    hoursText.setAttribute("class","p-phrase")
+    hoursText.setAttribute("id","opening-hours")
+    hoursContainer.appendChild(hoursText)
+    hoursText.textContent = "Monday: 8am - 6pm Tuesday: 8am - 6pm Wednesday: 8am - 6pm Thursday: 8am - 5pm Friday: 7am - 9pm Saturday: 6am - 10pm Sunday: 8am - 10pm "
+    
+    const halfLemonIcon = document.createElement("img")
+    halfLemonIcon.src ="../img/half-lemon.png"
+    halfLemonIcon.setAttribute("class","half-lemon-icon")
+    hoursContainer.appendChild(halfLemonIcon)
+
+    const locationContainer = document.createElement("div")
+    locationContainer.setAttribute("class","generic-container")
+    locationContainer.setAttribute("id","location-container")
+    document.querySelector(".main-content").appendChild(locationContainer)
+
+    const locationTitle = document.createElement("h2")
+    locationTitle.setAttribute("class","sub-title")
+    locationContainer.appendChild(locationTitle)
+    locationTitle.textContent = "Location"
+
+    const locationText = document.createElement("p")
+    locationText.setAttribute("class","p-phrase")
+    locationText.setAttribute("id","location-text")
+    locationContainer.appendChild(locationText)
+    locationText.textContent = "3322 Km 18, Cali, Colombia"
+
+    const leafIcon2 = document.createElement("img")
+    leafIcon2.src ="../img/leaf-icon.png"
+    leafIcon2.setAttribute("class","leaf-icon")
+    leafIcon2.setAttribute("id","leaf-icon2")
+    locationContainer.appendChild(leafIcon2)
+
 
   
 
