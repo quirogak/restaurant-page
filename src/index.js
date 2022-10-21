@@ -72,19 +72,25 @@ const genElements = (() => {
 
    if (e.target.id == "button1" ){
 
+    document.querySelector(".main-content").textContent = ""
     button1.setAttribute('style', 'border: 4px solid rgb(241, 209, 28);')
     button2.setAttribute('style', 'border: 2px solid black;')
     button3.setAttribute('style', 'border: 2px solid black;')
+
    }
 
    
    if (e.target.id == "button2" ){
+
+    document.querySelector(".main-content").textContent = ""
     button2.setAttribute('style', 'border: 4px solid rgb(241, 209, 28);')
     button1.setAttribute('style', 'border: 2px solid black;')
     button3.setAttribute('style', 'border: 2px solid black;')
    }
    
    if (e.target.id == "button3" ){
+    
+    document.querySelector(".main-content").textContent = ""
     button3.setAttribute('style', 'border: 4px solid rgb(241, 209, 28);')
     button2.setAttribute('style', 'border: 2px solid black;')
     button1.setAttribute('style', 'border: 2px solid black;')
