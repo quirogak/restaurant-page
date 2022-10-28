@@ -210,7 +210,144 @@ const genElements = (() => {
 
 
 
+   const genFoodElements = () => {
+
+
+  //food elements and title containers
+
+    const foodSection = document.createElement("div")
+    foodSection.setAttribute("class","food-section")
+    document.querySelector(".main-content").appendChild(foodSection)
+
+    const foodSection2 = document.createElement("div")
+    foodSection2.setAttribute("class","food-section")
+    document.querySelector(".main-content").appendChild(foodSection2)
+
+    const foodSection3 = document.createElement("div")
+    foodSection3.setAttribute("class","food-section")
+    document.querySelector(".main-content").appendChild(foodSection3)
+
+    //section title 1
+
+ const appetizersTitle = document.createElement("h2")
+ appetizersTitle.setAttribute("class","generic-container")
+ appetizersTitle.setAttribute("id","appetizers-title")
+ foodSection.appendChild(appetizersTitle)
+ appetizersTitle.textContent = "Appetizers"
+
+ const lemonIcon2 = document.createElement("img")
+ lemonIcon2.src ="../img/lemon-icon.png"
+ lemonIcon2.setAttribute("class","lemon-icon")
+ lemonIcon2.setAttribute("id","lemon-icon2")
+ appetizersTitle.appendChild(lemonIcon2)
+
+ const lemonIcon3 = document.createElement("img")
+ lemonIcon3.src ="../img/lemon-icon.png"
+ lemonIcon3.setAttribute("class","lemon-icon")
+ lemonIcon3.setAttribute("id","lemon-icon3")
+ appetizersTitle.appendChild(lemonIcon3)
+
+ //section title 2
+
+ const mainCourseTitle = document.createElement("h2")
+ mainCourseTitle.setAttribute("class","generic-container")
+ mainCourseTitle.setAttribute("id","main-course-title")
+ foodSection2.appendChild(mainCourseTitle)
+ mainCourseTitle.textContent = "Main"
+
+ const lemonIcon4 = document.createElement("img")
+ lemonIcon4.src ="../img/lemon-icon.png"
+ lemonIcon4.setAttribute("class","lemon-icon")
+ lemonIcon4.setAttribute("id","lemon-icon4")
+ mainCourseTitle.appendChild(lemonIcon4)
+
+ const lemonIcon5 = document.createElement("img")
+ lemonIcon5.src ="../img/lemon-icon.png"
+ lemonIcon5.setAttribute("class","lemon-icon")
+ lemonIcon5.setAttribute("id","lemon-icon5")
+ mainCourseTitle.appendChild(lemonIcon5)
+
+ //section title 3
+
+ const beveragesTitle = document.createElement("h2")
+ beveragesTitle .setAttribute("class","generic-container")
+ beveragesTitle .setAttribute("id","beverages-title")
+ foodSection3.appendChild(beveragesTitle )
+ beveragesTitle.textContent = "Beverages"
+
+ const lemonIcon6 = document.createElement("img")
+ lemonIcon6.src ="../img/lemon-icon.png"
+ lemonIcon6.setAttribute("class","lemon-icon")
+ lemonIcon6.setAttribute("id","lemon-icon6")
+ beveragesTitle.appendChild(lemonIcon6)
+
+ const lemonIcon7 = document.createElement("img")
+ lemonIcon7.src ="../img/lemon-icon.png"
+ lemonIcon7.setAttribute("class","lemon-icon")
+ lemonIcon7.setAttribute("id","lemon-icon7")
+ beveragesTitle.appendChild(lemonIcon7)
+
+
+ let foodContainer = []
+  let foodTitle = []
+  let foodDescription = []
+  let foodPrice = []
+  let FoodPhoto = []
+
+
+ for(let i = 1 ; i <= 12 ; i++){
+
+  //food elements
+
+  foodContainer[i] = document.createElement("div")
+  foodContainer[i].classList.add("food-container","generic-container")
+  foodContainer[i].setAttribute("id","food-"+i)
+
+  foodTitle[i] = document.createElement("h3")
+  foodTitle[i].setAttribute("class","name")
+  foodContainer[i].appendChild(foodTitle[i])
+  foodTitle[i].textContent = "Lorem ipsum"
+
+  foodDescription[i] = document.createElement("p")
+  foodDescription[i].setAttribute("class","name")
+  foodContainer[i].appendChild(foodDescription[i])
+  foodDescription[i].textContent = "Lorem ipsum ipsum lorem lorem ipsum"
+
+  foodPrice[i] = document.createElement("h3")
+  foodPrice[i].setAttribute("class","name")
+  foodContainer[i].appendChild(foodPrice[i])
+  foodPrice[i].textContent = "$3"
+
+  FoodPhoto[i] = document.createElement("img")
+  FoodPhoto[i].src ="../img/lemon-icon.png"
+  FoodPhoto[i].setAttribute("class","food-photo")
+  FoodPhoto[i].setAttribute("id","food-photo"+i)
+  foodContainer[i].appendChild(FoodPhoto[i])
+
+    }
+
+    foodSection.appendChild(foodContainer[1])
+    foodSection.appendChild(foodContainer[2])
+    foodSection.appendChild(foodContainer[3])
+    foodSection.appendChild(foodContainer[4])  
+    foodSection2.appendChild(foodContainer[5])
+    foodSection2.appendChild(foodContainer[6])
+    foodSection2.appendChild(foodContainer[7]) 
+    foodSection2.appendChild(foodContainer[8]) 
+    foodSection2.appendChild(foodContainer[9])  
+    foodSection3.appendChild(foodContainer[10])
+    foodSection3.appendChild(foodContainer[11])
+    foodSection3.appendChild(foodContainer[12])  
+    
+
+   }
+
+
+  return genFoodElements()
+
+
   }
+
 
   const genContact = () => {
 
@@ -372,6 +509,7 @@ const genElements = (() => {
 
   button3.addEventListener("click", buttonSwitch)
   button3.addEventListener("click", genContact)
+
 
   
 

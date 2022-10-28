@@ -102,7 +102,7 @@ footer {
 .generic-container{
     display: flex;
     position: relative;
-    height: 6vh;
+    height: min-content;
     width: 50vh;
     background-color: rgb(245, 236, 108);
     border: 2px solid black;
@@ -160,9 +160,10 @@ h2 {
 
 #desc-text {
     position: relative;
-    height: 23vh;
+    height: min-content;
     margin-top: 50px;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .p-text {
@@ -180,6 +181,7 @@ h2 {
     padding-top: 0px;
     padding-left: 50px;
     margin:0;
+    
 }
 
 #hours-text{
@@ -238,6 +240,66 @@ h2 {
 
 
 /* Menu */
+
+.food-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#appetizers-title,
+#main-course-title,
+#beverages-title{
+    font-family: "Courgette";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    width: 35vh;
+    height: 6vh;
+    margin-top: 10vh;
+}
+
+#lemon-icon2,
+#lemon-icon3,
+#lemon-icon4,
+#lemon-icon5,
+#lemon-icon6,
+#lemon-icon7 {
+    width: 50px;
+    height: 50px;
+    top: 5px;
+
+}
+
+#lemon-icon2,
+#lemon-icon4,
+#lemon-icon6 {
+    left: 275px;
+}
+
+#lemon-icon3,
+#lemon-icon5,
+#lemon-icon7 {
+    left: 10px;
+}
+
+
+.food-container {
+    flex-direction: column;
+    width: 40vh;
+    height: min-content;
+}
+
+.food-photo{
+    width: 200px;
+    height: 200px;
+    align-self:center;
+    margin-bottom: 2vh;
+}
+
+
 
 
 
@@ -299,6 +361,7 @@ h2 {
     width: 120px;
     height: 150px;
 }
+
 
 
 
