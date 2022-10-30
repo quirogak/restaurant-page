@@ -546,7 +546,7 @@ const genElements = (() => {
     contactEmail3.textContent = "EmailRandomExample@gmail.com"
 
     const contactPhoto3 = document.createElement("img")
-    contactPhoto3.src = "../img/birdy.png"
+    contactPhoto3.src = "/img/birdy.png"
     contactPhoto3.setAttribute("class","profile-pic")
     contactThree.appendChild(contactPhoto3)
   
