@@ -111,7 +111,7 @@ const genElements = (() => {
     document.querySelector(".main-content").appendChild(titleContainer)
     
     const leafIcon = document.createElement("img")
-    leafIcon.src ="../img/leaf-icon.png"
+    leafIcon.src ="img/leaf-icon.png"
     leafIcon.setAttribute("class","leaf-icon")
     titleContainer.appendChild(leafIcon)
 
@@ -139,7 +139,7 @@ const genElements = (() => {
     descriptionPhrase.textContent = "When life gives you lemons, visit Planeta Limón and get a discount!"
 
     const lemonIcon = document.createElement("img")
-    lemonIcon.src ="../img/lemon-icon.png"
+    lemonIcon.src ="img/lemon-icon.png"
     lemonIcon.setAttribute("class","lemon-icon")
     descriptionContainer.appendChild(lemonIcon)
 
@@ -163,7 +163,7 @@ const genElements = (() => {
     hoursText.textContent = "Monday: 8am - 6pm Tuesday: 8am - 6pm Wednesday: 8am - 6pm Thursday: 8am - 5pm Friday: 7am - 9pm Saturday: 6am - 10pm Sunday: 8am - 10pm "
     
     const halfLemonIcon = document.createElement("img")
-    halfLemonIcon.src ="../img/half-lemon.png"
+    halfLemonIcon.src ="img/half-lemon.png"
     halfLemonIcon.setAttribute("class","half-lemon-icon")
     hoursContainer.appendChild(halfLemonIcon)
 
@@ -184,7 +184,7 @@ const genElements = (() => {
     locationText.textContent = "3322 Km 18, Cali, Colombia"
 
     const leafIcon2 = document.createElement("img")
-    leafIcon2.src ="../img/leaf-icon.png"
+    leafIcon2.src ="img/leaf-icon.png"
     leafIcon2.setAttribute("class","leaf-icon")
     leafIcon2.setAttribute("id","leaf-icon2")
     locationContainer.appendChild(leafIcon2)
@@ -199,7 +199,7 @@ const genElements = (() => {
     document.querySelector(".main-content").appendChild(titleContainer)
     
     const leafIcon = document.createElement("img")
-    leafIcon.src ="../img/leaf-icon.png"
+    leafIcon.src ="img/leaf-icon.png"
     leafIcon.setAttribute("class","leaf-icon")
     titleContainer.appendChild(leafIcon)
 
@@ -236,13 +236,13 @@ const genElements = (() => {
  dessertsTitle.textContent = "Desserts"
 
  const lemonIcon2 = document.createElement("img")
- lemonIcon2.src ="../img/lemon-icon.png"
+ lemonIcon2.src ="img/lemon-icon.png"
  lemonIcon2.setAttribute("class","lemon-icon")
  lemonIcon2.setAttribute("id","lemon-icon2")
  dessertsTitle.appendChild(lemonIcon2)
 
  const lemonIcon3 = document.createElement("img")
- lemonIcon3.src ="../img/lemon-icon.png"
+ lemonIcon3.src ="img/lemon-icon.png"
  lemonIcon3.setAttribute("class","lemon-icon")
  lemonIcon3.setAttribute("id","lemon-icon3")
  dessertsTitle.appendChild(lemonIcon3)
@@ -256,13 +256,13 @@ const genElements = (() => {
  mainCourseTitle.textContent = "Main"
 
  const lemonIcon4 = document.createElement("img")
- lemonIcon4.src ="../img/lemon-icon.png"
+ lemonIcon4.src ="img/lemon-icon.png"
  lemonIcon4.setAttribute("class","lemon-icon")
  lemonIcon4.setAttribute("id","lemon-icon4")
  mainCourseTitle.appendChild(lemonIcon4)
 
  const lemonIcon5 = document.createElement("img")
- lemonIcon5.src ="../img/lemon-icon.png"
+ lemonIcon5.src ="img/lemon-icon.png"
  lemonIcon5.setAttribute("class","lemon-icon")
  lemonIcon5.setAttribute("id","lemon-icon5")
  mainCourseTitle.appendChild(lemonIcon5)
@@ -276,13 +276,13 @@ const genElements = (() => {
  beveragesTitle.textContent = "Beverages"
 
  const lemonIcon6 = document.createElement("img")
- lemonIcon6.src ="../img/lemon-icon.png"
+ lemonIcon6.src ="img/lemon-icon.png"
  lemonIcon6.setAttribute("class","lemon-icon")
  lemonIcon6.setAttribute("id","lemon-icon6")
  beveragesTitle.appendChild(lemonIcon6)
 
  const lemonIcon7 = document.createElement("img")
- lemonIcon7.src ="../img/lemon-icon.png"
+ lemonIcon7.src ="img/lemon-icon.png"
  lemonIcon7.setAttribute("class","lemon-icon")
  lemonIcon7.setAttribute("id","lemon-icon7")
  beveragesTitle.appendChild(lemonIcon7)
@@ -339,57 +339,57 @@ const genElements = (() => {
     foodTitle[1].textContent = "Glazed Lemon-Ginger Scones"
     foodDescription[1].textContent = "Lemony, cream-based scones are light, moist, and laced with pieces of chewy candied ginger."
     foodPrice[1].textContent = "2.99$"
-    FoodPhoto[1].src ="../img/food/HD-201301-r-glazed-lemon-ginger-scones-66d73b52965e4ff5980d7505ee827dd1.jpg"
+    FoodPhoto[1].src ="img/food/HD-201301-r-glazed-lemon-ginger-scones-66d73b52965e4ff5980d7505ee827dd1.jpg"
 
     foodTitle[2].textContent = "Lemon Curd Toasts with Coconut"
     foodDescription[2].textContent = "Olive oil and cocoa butter make this lemony curd extraordinarily creamy and luscious. Spread on baguette toasts, it becomes a fantastic dessert."
     foodPrice[2].textContent = "4.99$"
-    FoodPhoto[2].src ="../img/food/RECIPE1215-XL-lemon-curd-toasts-with-coconut-00041018347b4a69bfe289ba9753e01e.jpg"
+    FoodPhoto[2].src ="img/food/RECIPE1215-XL-lemon-curd-toasts-with-coconut-00041018347b4a69bfe289ba9753e01e.jpg"
 
     foodTitle[3].textContent = "Lemon-Almond Cake with Roasted Rhubarb"
     foodDescription[3].textContent = "This tender, lemon-scented almond cake is topped with roasted rhubarb, but is equally delicious with any kind of fresh or roasted fruit, like roasted strawberries, fresh orange segments, or roasted plums."
     foodPrice[3].textContent = "8$"
-    FoodPhoto[3].src ="../img/food/Flourless-Rhubarb-Cake-FT-RECIPE0520-2000-dd46611f23034608ac97761d26302ad4.jpg"
+    FoodPhoto[3].src ="img/food/Flourless-Rhubarb-Cake-FT-RECIPE0520-2000-dd46611f23034608ac97761d26302ad4.jpg"
     
     foodTitle[4].textContent = "Squid and Summer Vegetable Salad"
     foodDescription[4].textContent = "This seafood salad from Provence, combines simply poached squid, a piquant dressing, and a mix of super-thinly sliced vegetables made extra crisp thanks to a soak in an ice water bath."
     foodPrice[4].textContent = "12.99$"
-    FoodPhoto[4].src ="../img/food/squid-and-summer-vegetable-salad-with-preserved-lemon-dressing-XL-RECIPE0816-65319551486e465fbecea208ac216217.jpg"
+    FoodPhoto[4].src ="img/food/squid-and-summer-vegetable-salad-with-preserved-lemon-dressing-XL-RECIPE0816-65319551486e465fbecea208ac216217.jpg"
 
     foodTitle[5].textContent = "Shrimp & Lemon Spaghetti"
     foodDescription[5].textContent = "A variant the classic spaghetti Ajo, Ojo e peperoncino (garlic, oil and chile), embellishing it with shrimp, lemon, pecorino, almond, and mint. It's simple, delicious and crowd-pleasing."
     foodPrice[5].textContent = "10$"
-    FoodPhoto[5].src ="../img/food/spaghetti-with-shrimp-lemon-mint-and-pecorino-XL-RECIPE0916-140de4aeed3a4e4bb2bc17d1061af5a3.jpg"
+    FoodPhoto[5].src ="img/food/spaghetti-with-shrimp-lemon-mint-and-pecorino-XL-RECIPE0916-140de4aeed3a4e4bb2bc17d1061af5a3.jpg"
 
     foodTitle[6].textContent = "Chicken Freekeh Skillet "
     foodDescription[6].textContent = "Includes firm feta cheese that gently warms to the point that it becomes soft and almost gooey The relish also gets a brazen hit of citrus from chopped lemon sections, which offer a tart, juicy bursts that are way more forward than lemon juice would be"
     foodPrice[6.].textContent = "14.99$"
-    FoodPhoto[6].src ="../img/food/lemon-chicken-freekah-skillet-1-FT-RECIPE0320-b026acd4c26447eb9b36cafb9a4688fa.jpg"
+    FoodPhoto[6].src ="img/food/lemon-chicken-freekah-skillet-1-FT-RECIPE0320-b026acd4c26447eb9b36cafb9a4688fa.jpg"
 
     foodTitle[7].textContent = "Creamy Lemon Pasta"
     foodDescription[7].textContent = "The dish originated at L'Antica Trattoria in Sorrento, where lemon juice is tossed with just-cooked pasta until absorbed. Supremes of lemon add a juicy, tart pop that cuts through the cream in the sauce."
     foodPrice[7].textContent = "9.99$"
-    FoodPhoto[7].src ="../img/food/creamy-lemon-pasta-XL-RECIPE0518-e0969821914f42feb579d81f2229a6e7.jpg"
+    FoodPhoto[7].src ="img/food/creamy-lemon-pasta-XL-RECIPE0518-e0969821914f42feb579d81f2229a6e7.jpg"
 
     foodTitle[8].textContent = "Grilled King Salmon"
     foodDescription[8].textContent = "Floral and lightly acidic salsa brings out the buttery, rich flavors of grilled King salmon. Salmon is meaty enough to stay intact on a grill and gets meltingly tender as it cooks."
     foodPrice[8].textContent = "17.99$"
-    FoodPhoto[8].src ="../img/food/grilled-king-salmon-with-meyer-lemon-relish-FT-BLOG0320-5fbdf486250d4aae8be28405f9ada62b.jpg"
+    FoodPhoto[8].src ="img/food/grilled-king-salmon-with-meyer-lemon-relish-FT-BLOG0320-5fbdf486250d4aae8be28405f9ada62b.jpg"
 
     foodTitle[9].textContent = "Gin Fizz"
     foodDescription[9].textContent = "This classic cocktail features gin and lemon juice. It's got a classic egg white foam, and is topped off with soda water."
     foodPrice[9].textContent = "4$"
-    FoodPhoto[9].src ="../img/food/Gin-Fizz-112-735x919.jpg"
+    FoodPhoto[9].src ="img/food/Gin-Fizz-112-735x919.jpg"
 
     foodTitle[10].textContent = "Whiskey Smash"
     foodDescription[10].textContent = "This whiskey smash is tangy and refreshing, featuring muddled lemon wedges, fresh mint, and soda water. It's like a citrusy spin on the mint julep! Or, a minty spin on the whiskey sour. Serve it with lots of crushed ice; it's perfect for summer."
     foodPrice[10].textContent = "5.99$"
-    FoodPhoto[10].src ="../img/food/Whiskey-Smash-005-735x919.jpg"
+    FoodPhoto[10].src ="img/food/Whiskey-Smash-005-735x919.jpg"
 
     foodTitle[11].textContent = "Southside Cocktail"
     foodDescription[11].textContent = "Here's a unique lemon cocktail: the Southside! It’s minty, fresh, and botanical, made with lemon, lime, and gin. The best way to describe it? A Mojito with gin!"
     foodPrice[11].textContent = "3.5$"
-    FoodPhoto[11].src ="../img/food/Southside-Cocktail-001-735x919.jpg"
+    FoodPhoto[11].src ="img/food/Southside-Cocktail-001-735x919.jpg"
 
 
 
@@ -417,7 +417,7 @@ const genElements = (() => {
     document.querySelector(".main-content").appendChild(titleContainer)
     
     const leafIcon = document.createElement("img")
-    leafIcon.src ="../img/leaf-icon.png"
+    leafIcon.src ="img/leaf-icon.png"
     leafIcon.setAttribute("class","leaf-icon")
     leafIcon.setAttribute("id","leaf-icon3")
     titleContainer.appendChild(leafIcon)
@@ -460,7 +460,7 @@ const genElements = (() => {
     contactEmail.textContent = "EmailRandomExample@gmail.com"
 
     const contactPhoto = document.createElement("img")
-    contactPhoto.src = "../img/clank.png"
+    contactPhoto.src = "img/clank.png"
     contactPhoto.setAttribute("class","profile-pic")
     contactOne.appendChild(contactPhoto)
 
@@ -503,7 +503,7 @@ const genElements = (() => {
     contactEmail2.textContent = "EmailRandomExample@gmail.com"
 
     const contactPhoto2 = document.createElement("img")
-    contactPhoto2.src = "../img/sackboy.png"
+    contactPhoto2.src = "img/sackboy.png"
     contactPhoto2.setAttribute("class","profile-pic")
     contactTwo.appendChild(contactPhoto2)
 
