@@ -354,7 +354,7 @@ const genElements = (() => {
     foodTitle[4].textContent = "Squid and Summer Vegetable Salad"
     foodDescription[4].textContent = "This seafood salad from Provence, combines simply poached squid, a piquant dressing, and a mix of super-thinly sliced vegetables made extra crisp thanks to a soak in an ice water bath."
     foodPrice[4].textContent = "12.99$"
-    FoodPhoto[4].src ="img/food/squid-and-summer-vegetable-salad-with-preserved-lemon-dressing-XL-RECIPE0816-65319551486e465fbecea208ac216217.jpg"
+    FoodPhoto[4].src = "img/food/squid-and-summer-vegetable-salad-with-preserved-lemon-dressing-XL-RECIPE0816-65319551486e465fbecea208ac216217.jpg"
 
     foodTitle[5].textContent = "Shrimp & Lemon Spaghetti"
     foodDescription[5].textContent = "A variant the classic spaghetti Ajo, Ojo e peperoncino (garlic, oil and chile), embellishing it with shrimp, lemon, pecorino, almond, and mint. It's simple, delicious and crowd-pleasing."
