@@ -6,7 +6,7 @@ body{
 #content {
     width: 100%;
     height: auto;
-    background-image: url(../img/lemons-edited.png);
+    background-image: url(img/lemons-edited.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
