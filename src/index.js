@@ -229,23 +229,23 @@ const genElements = (() => {
 
     //section title 1
 
- const appetizersTitle = document.createElement("h2")
- appetizersTitle.setAttribute("class","generic-container")
- appetizersTitle.setAttribute("id","appetizers-title")
- foodSection.appendChild(appetizersTitle)
- appetizersTitle.textContent = "Appetizers"
+ const dessertsTitle = document.createElement("h2")
+ dessertsTitle.setAttribute("class","generic-container")
+ dessertsTitle.setAttribute("id","appetizers-title")
+ foodSection.appendChild(dessertsTitle)
+ dessertsTitle.textContent = "Desserts"
 
  const lemonIcon2 = document.createElement("img")
  lemonIcon2.src ="../img/lemon-icon.png"
  lemonIcon2.setAttribute("class","lemon-icon")
  lemonIcon2.setAttribute("id","lemon-icon2")
- appetizersTitle.appendChild(lemonIcon2)
+ dessertsTitle.appendChild(lemonIcon2)
 
  const lemonIcon3 = document.createElement("img")
  lemonIcon3.src ="../img/lemon-icon.png"
  lemonIcon3.setAttribute("class","lemon-icon")
  lemonIcon3.setAttribute("id","lemon-icon3")
- appetizersTitle.appendChild(lemonIcon3)
+ dessertsTitle.appendChild(lemonIcon3)
 
  //section title 2
 
@@ -295,7 +295,7 @@ const genElements = (() => {
   let FoodPhoto = []
 
 
- for(let i = 1 ; i <= 12 ; i++){
+ for(let i = 1 ; i <= 11 ; i++){
 
   //food elements
 
@@ -306,44 +306,104 @@ const genElements = (() => {
   foodTitle[i] = document.createElement("h3")
   foodTitle[i].setAttribute("class","name")
   foodContainer[i].appendChild(foodTitle[i])
-  foodTitle[i].textContent = "Lorem ipsum"
 
   foodDescription[i] = document.createElement("p")
-  foodDescription[i].setAttribute("class","name")
+  foodDescription[i].setAttribute("class","description")
   foodContainer[i].appendChild(foodDescription[i])
-  foodDescription[i].textContent = "Lorem ipsum ipsum lorem lorem ipsum"
 
   foodPrice[i] = document.createElement("h3")
-  foodPrice[i].setAttribute("class","name")
+  foodPrice[i].setAttribute("class","price")
   foodContainer[i].appendChild(foodPrice[i])
-  foodPrice[i].textContent = "$3"
 
   FoodPhoto[i] = document.createElement("img")
-  FoodPhoto[i].src ="../img/lemon-icon.png"
   FoodPhoto[i].setAttribute("class","food-photo")
   FoodPhoto[i].setAttribute("id","food-photo"+i)
   foodContainer[i].appendChild(FoodPhoto[i])
+
 
     }
 
     foodSection.appendChild(foodContainer[1])
     foodSection.appendChild(foodContainer[2])
     foodSection.appendChild(foodContainer[3])
-    foodSection.appendChild(foodContainer[4])  
+    foodSection2.appendChild(foodContainer[4])  
     foodSection2.appendChild(foodContainer[5])
-    foodSection2.appendChild(foodContainer[6])
+    foodSection2.appendChild(foodContainer[6]) 
     foodSection2.appendChild(foodContainer[7]) 
-    foodSection2.appendChild(foodContainer[8]) 
-    foodSection2.appendChild(foodContainer[9])  
+    foodSection2.appendChild(foodContainer[8])  
+    foodSection3.appendChild(foodContainer[9])
     foodSection3.appendChild(foodContainer[10])
-    foodSection3.appendChild(foodContainer[11])
-    foodSection3.appendChild(foodContainer[12])  
+    foodSection3.appendChild(foodContainer[11])  
+
+    //food elements content
+    foodTitle[1].textContent = "Glazed Lemon-Ginger Scones"
+    foodDescription[1].textContent = "Lemony, cream-based scones are light, moist, and laced with pieces of chewy candied ginger."
+    foodPrice[1].textContent = "2.99$"
+    FoodPhoto[1].src ="../img/food/HD-201301-r-glazed-lemon-ginger-scones-66d73b52965e4ff5980d7505ee827dd1.jpg"
+
+    foodTitle[2].textContent = "Lemon Curd Toasts with Coconut"
+    foodDescription[2].textContent = "Olive oil and cocoa butter make this lemony curd extraordinarily creamy and luscious. Spread on baguette toasts, it becomes a fantastic dessert."
+    foodPrice[2].textContent = "4.99$"
+    FoodPhoto[2].src ="../img/food/RECIPE1215-XL-lemon-curd-toasts-with-coconut-00041018347b4a69bfe289ba9753e01e.jpg"
+
+    foodTitle[3].textContent = "Lemon-Almond Cake with Roasted Rhubarb"
+    foodDescription[3].textContent = "This tender, lemon-scented almond cake is topped with roasted rhubarb, but is equally delicious with any kind of fresh or roasted fruit, like roasted strawberries, fresh orange segments, or roasted plums."
+    foodPrice[3].textContent = "8$"
+    FoodPhoto[3].src ="../img/food/Flourless-Rhubarb-Cake-FT-RECIPE0520-2000-dd46611f23034608ac97761d26302ad4.jpg"
+    
+    foodTitle[4].textContent = "Squid and Summer Vegetable Salad"
+    foodDescription[4].textContent = "This seafood salad from Provence, combines simply poached squid, a piquant dressing, and a mix of super-thinly sliced vegetables made extra crisp thanks to a soak in an ice water bath."
+    foodPrice[4].textContent = "12.99$"
+    FoodPhoto[4].src ="../img/food/squid-and-summer-vegetable-salad-with-preserved-lemon-dressing-XL-RECIPE0816-65319551486e465fbecea208ac216217.jpg"
+
+    foodTitle[5].textContent = "Shrimp & Lemon Spaghetti"
+    foodDescription[5].textContent = "A variant the classic spaghetti Ajo, Ojo e peperoncino (garlic, oil and chile), embellishing it with shrimp, lemon, pecorino, almond, and mint. It's simple, delicious and crowd-pleasing."
+    foodPrice[5].textContent = "10$"
+    FoodPhoto[5].src ="../img/food/spaghetti-with-shrimp-lemon-mint-and-pecorino-XL-RECIPE0916-140de4aeed3a4e4bb2bc17d1061af5a3.jpg"
+
+    foodTitle[6].textContent = "Chicken Freekeh Skillet "
+    foodDescription[6].textContent = "Includes firm feta cheese that gently warms to the point that it becomes soft and almost gooey The relish also gets a brazen hit of citrus from chopped lemon sections, which offer a tart, juicy bursts that are way more forward than lemon juice would be"
+    foodPrice[6.].textContent = "14.99$"
+    FoodPhoto[6].src ="../img/food/lemon-chicken-freekah-skillet-1-FT-RECIPE0320-b026acd4c26447eb9b36cafb9a4688fa.jpg"
+
+    foodTitle[7].textContent = "Creamy Lemon Pasta"
+    foodDescription[7].textContent = "The dish originated at L'Antica Trattoria in Sorrento, where lemon juice is tossed with just-cooked pasta until absorbed. Supremes of lemon add a juicy, tart pop that cuts through the cream in the sauce."
+    foodPrice[7].textContent = "9.99$"
+    FoodPhoto[7].src ="../img/food/creamy-lemon-pasta-XL-RECIPE0518-e0969821914f42feb579d81f2229a6e7.jpg"
+
+    foodTitle[8].textContent = "Grilled King Salmon"
+    foodDescription[8].textContent = "Floral and lightly acidic salsa brings out the buttery, rich flavors of grilled King salmon. Salmon is meaty enough to stay intact on a grill and gets meltingly tender as it cooks."
+    foodPrice[8].textContent = "17.99$"
+    FoodPhoto[8].src ="../img/food/grilled-king-salmon-with-meyer-lemon-relish-FT-BLOG0320-5fbdf486250d4aae8be28405f9ada62b.jpg"
+
+    foodTitle[9].textContent = "Gin Fizz"
+    foodDescription[9].textContent = "This classic cocktail features gin and lemon juice. It's got a classic egg white foam, and is topped off with soda water."
+    foodPrice[9].textContent = "4$"
+    FoodPhoto[9].src ="../img/food/Gin-Fizz-112-735x919.jpg"
+
+    foodTitle[10].textContent = "Whiskey Smash"
+    foodDescription[10].textContent = "This whiskey smash is tangy and refreshing, featuring muddled lemon wedges, fresh mint, and soda water. It's like a citrusy spin on the mint julep! Or, a minty spin on the whiskey sour. Serve it with lots of crushed ice; it's perfect for summer."
+    foodPrice[10].textContent = "5.99$"
+    FoodPhoto[10].src ="../img/food/Whiskey-Smash-005-735x919.jpg"
+
+    foodTitle[11].textContent = "Southside Cocktail"
+    foodDescription[11].textContent = "Here's a unique lemon cocktail: the Southside! It’s minty, fresh, and botanical, made with lemon, lime, and gin. The best way to describe it? A Mojito with gin!"
+    foodPrice[11].textContent = "3.5$"
+    FoodPhoto[11].src ="../img/food/Southside-Cocktail-001-735x919.jpg"
+
+
+
+
     
 
    }
 
+   
+
 
   return genFoodElements()
+
+
 
 
   }
